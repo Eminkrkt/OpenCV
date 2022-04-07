@@ -6,7 +6,7 @@ import cv2 ; import numpy as np
 video = cv2.VideoCapture('Video/fv1.mp4') 
  
 while True:
-    # Fİmage is read // Görüntü okunur
+    # Image is read // Görüntü okunur
     (grabbed, frame) = video.read()
     if not grabbed:
         break
